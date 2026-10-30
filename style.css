@@ -1,0 +1,2393 @@
+:root{font-family:Inter,Arial,sans-serif;color:#152744;background:#071428}*{box-sizing:border-box}button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #1ca5f8;outline-offset:2px}.top{height:82px;background:linear-gradient(120deg,#071329,#11284b 55%,#071329);border-bottom:3px solid #079bdf;display:flex;align-items:center;gap:20px;padding:9px 20px;color:#ecf8ff}.brand{display:flex;align-items:center;gap:11px;min-width:265px}.brand strong{font-size:22px;letter-spacing:1.3px;color:#8fd8ff}.brand small{display:block;font-size:10px;letter-spacing:1.1px;color:#9ec4e2;margin-top:3px}.planet{font-size:40px;color:#31c6ff}nav{display:flex;align-self:stretch;align-items:end;gap:5px;flex:1}button.tab{height:53px;padding:0 16px;border:1px solid #315478;border-radius:12px 12px 0 0;background:#162c4a;color:#bdd6ee;font-size:12px;font-weight:800;letter-spacing:.3px}button.tab.active{color:white;background:#075b94;border-color:#00b9ff;box-shadow:inset 0 -3px #38d4ff}.progress{border:1px solid #13b8f9;border-radius:12px;min-width:143px;text-align:center;padding:8px 13px}.progress small{display:block;font-size:10px;color:#b9d5ed}.progress b{font-size:23px}.shell{display:grid;grid-template-columns:230px minmax(0,1fr);gap:12px;padding:12px;min-height:calc(100vh - 82px);background:radial-gradient(ellipse at bottom,#17365b,#061225 70%)}.sidebar{border:2px solid #168bca;border-radius:14px;background:linear-gradient(#132c4d,#081b33);color:#e4f4ff;padding:15px;box-shadow:0 0 15px #087bd250;display:flex;flex-direction:column}.sidebar h2{font-size:17px;margin:3px 0 10px}.sidebar p{font-size:12px;line-height:1.55;color:#b5d0e8;margin:0 0 16px}.sidebar h3{font-size:11px;letter-spacing:1.2px;color:#7bd9ff}.branch{display:block;text-align:left;width:100%;border:1px solid #24476b;border-radius:10px;background:#102541;color:#d6edff;padding:10px;margin:6px 0}.branch.active{border-color:#2cc6ff;background:#08609c}.branch small{display:block;color:#b7d5eb;margin-top:4px}.branch .status{float:right;color:#76e6b0}.sidebottom{margin-top:auto;padding-top:20px}.ghost{border:1px solid #4c6b86;background:transparent;color:#c5e4fa;border-radius:8px;padding:9px;font-size:12px;width:100%}main{min-width:0;background:#f2f6fb;border:2px solid #b8d1e9;border-radius:15px;padding:19px 22px;box-shadow:0 6px 0 #09192b;min-height:620px}.mainhead{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px}.mainhead h1{font-size:22px;margin:0}.pill{background:#d9e8fc;color:#275480;border-radius:30px;padding:7px 12px;font-size:12px;font-weight:700}.questionbox{border:1px solid #8bbcec;background:#dcecff;border-radius:11px;padding:13px;margin-bottom:14px}.questionbox label{display:block;font-size:11px;font-weight:800;color:#436887;margin-bottom:7px;letter-spacing:.5px}.questionbox select{width:100%;background:white;border:1px solid #a5bdd2;border-radius:8px;padding:10px;color:#19344f}.hint{font-size:12px;color:#55708b;margin:12px 0}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.specimen{border:1px solid #d0d9e5;border-radius:12px;background:#fffdf8;min-width:0;padding:8px;display:flex;flex-direction:column;align-items:center;box-shadow:0 2px 4px #10253a0e}.specimen img{height:130px;max-width:100%;object-fit:contain;cursor:zoom-in}.specimen .name{font-weight:800;margin:3px}.choices{display:flex;gap:6px;width:100%;justify-content:center;margin-top:6px}.choices button{flex:1;max-width:95px;border:1px solid #aabbd1;border-radius:7px;background:#eaf1f8;padding:7px 3px;font-weight:700;font-size:12px}.choices button.yes.selected{background:#b9ebd0;border-color:#2b9a65}.choices button.no.selected{background:#e4c8f7;border-color:#8e5ac0}.actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:15px 0}.primary{background:#087bb8;color:white;border:0;border-radius:9px;padding:11px 18px;font-weight:800}.secondary{background:#e0ecf7;color:#204b71;border:1px solid #b5cee5;border-radius:9px;padding:10px 14px;font-weight:700}.feedback{padding:10px 14px;border-radius:9px;font-size:13px;line-height:1.5}.feedback.good{background:#daf5e4;color:#155b35}.feedback.bad{background:#ffeed6;color:#7d4b0e}.info{background:#e6effa;border-radius:10px;padding:14px;color:#33536d;font-size:13px;line-height:1.6}.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.gallery .specimen img{height:190px}.zones{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:13px}.zone{padding:11px;border:1px solid #87cda5;border-radius:10px;background:#e1f6e9;min-height:65px;font-size:12px}.zone.no{border-color:#c1a3eb;background:#f0e6fa}.zone strong{display:block;margin-bottom:6px}.zone span{display:inline-block;background:white;padding:4px 7px;border-radius:6px;margin:3px}.tree{display:flex;gap:12px;flex-wrap:wrap}.treenode{border:1px solid #a6c7e1;background:white;border-radius:10px;padding:12px;flex:1;min-width:200px}.treenode b{display:block;margin-bottom:6px}.treechild{margin-top:9px;border-left:3px solid #78b1df;padding-left:9px}.treechild strong{color:#14618f}.modal{position:fixed;inset:0;background:#001327c9;display:flex;align-items:center;justify-content:center;padding:20px;z-index:10}.modal.hidden{display:none}.modalbox{position:relative;background:#f9fbff;border:3px solid #22b6ed;border-radius:15px;padding:24px;max-width:620px;width:100%;max-height:90vh;overflow:auto}.close{position:absolute;right:12px;top:8px;border:0;background:transparent;font-size:30px;color:#36526d}.inspectimg{width:100%;max-height:60vh;object-fit:contain}.fields{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.fields label{font-size:12px;font-weight:700}.fields input{width:100%;padding:9px;border:1px solid #a8b9cb;border-radius:8px;margin-top:5px}.footerline{margin-top:16px;font-size:12px;color:#637c90}@media(max-width:950px){.top{gap:7px;padding:7px}.brand{min-width:180px}.brand strong{font-size:16px}.brand small{font-size:8px}.planet{font-size:28px}button.tab{font-size:10px;padding:0 8px}.shell{grid-template-columns:180px 1fr;gap:7px;padding:7px}.sidebar{padding:10px}main{padding:13px}.cards{gap:7px}.specimen img{height:105px}.gallery .specimen img{height:130px}}@media(max-width:650px){.top{height:auto;flex-wrap:wrap}.brand{flex:1}.progress{min-width:90px}.progress b{font-size:16px}nav{order:3;width:100%;flex-basis:100%}button.tab{height:36px;flex:1}.shell{display:block}.sidebar{margin-bottom:9px}.sidebar p,.sidebar h3,.sidebottom{display:none}#branchList{display:flex;gap:6px;overflow-x:auto}.branch{min-width:135px}.cards,.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.mainhead h1{font-size:18px}.specimen img{height:125px}.fields{grid-template-columns:1fr}}
+
+/* ========================================
+   ALIEN EXPLORER — WELCOME SCREEN
+   ======================================== */
+
+.welcome-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  overflow-y: auto;
+  background:
+    radial-gradient(ellipse at 50% 20%, #1b4264 0%, transparent 55%),
+    linear-gradient(145deg, #071321, #10273d 65%, #06111e);
+  color: #edf7ff;
+  font-family: Arial, sans-serif;
+}
+
+.welcome-panel {
+  width: 100%;
+  max-width: 760px;
+  max-height: 100%;
+  overflow-y: auto;
+  padding: 32px 42px;
+  border: 1px solid #427da3;
+  border-radius: 18px;
+  background: linear-gradient(160deg, #142d46, #091a2b);
+  box-shadow: 0 0 45px rgba(39, 151, 223, 0.2);
+}
+
+.welcome-eyebrow {
+  color: #7fdcf7;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.welcome-planet {
+  margin: 16px auto 8px;
+  color: #65dcf2;
+  font-size: 42px;
+  text-align: center;
+  text-shadow: 0 0 25px rgba(76, 213, 255, 0.6);
+}
+
+.welcome-panel h1 {
+  margin: 8px 0;
+  color: #ffffff;
+  font-size: clamp(24px, 4vw, 36px);
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.welcome-subtitle {
+  margin-bottom: 24px;
+  color: #9ed3e9;
+  font-size: 13px;
+  text-align: center;
+}
+
+.welcome-panel > p:not(.welcome-subtitle) {
+  font-size: 15px;
+  line-height: 1.65;
+  color: #e0edf7;
+}
+
+.welcome-objective,
+.welcome-info {
+  margin-top: 18px;
+  padding: 16px 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.welcome-objective {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-left: 4px solid #56d6ed;
+  background: #1b3d55;
+}
+
+.welcome-objective strong {
+  color: #7de9fb;
+  letter-spacing: 1px;
+}
+
+.welcome-info {
+  background: #eaf3fa;
+  color: #20364a;
+}
+
+.welcome-info strong {
+  color: #164b71;
+}
+
+.welcome-info p {
+  margin: 8px 0 0;
+}
+
+.welcome-start {
+  display: block;
+  width: 100%;
+  margin-top: 24px;
+  padding: 16px;
+  border: 1px solid #87e9ff;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #37c6e8, #1678b8);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition: filter 0.2s, transform 0.2s;
+}
+
+.welcome-start:hover {
+  filter: brightness(1.15);
+  transform: translateY(-2px);
+}
+
+.welcome-start:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+}
+
+@media (max-width: 600px) {
+  .welcome-screen {
+    padding: 12px;
+  }
+
+  .welcome-panel {
+    padding: 22px 20px;
+  }
+}
+
+/* ========================================
+   SPACESHIP OBSERVATION WINDOW
+   ======================================== */
+
+.observation-window {
+  width: 100%;
+  max-width: 240px;
+  margin: 24px auto 14px;
+  padding: 7px;
+  box-sizing: border-box;
+  border: 3px solid #526c80;
+  border-radius: 48% / 38%;
+  background: #122b40;
+  box-shadow:
+    0 0 0 3px #071523,
+    inset 0 0 12px #050d17,
+    0 0 18px rgba(67, 190, 229, 0.18);
+  overflow: hidden;
+}
+
+.observation-glass {
+  position: relative;
+  height: 125px;
+  border-radius: 48% / 38%;
+  overflow: hidden;
+  background: linear-gradient(
+    to bottom,
+    #132345 0%,
+    #3a4581 42%,
+    #9b6f9f 76%,
+    #e0a08d 100%
+  );
+}
+
+/* Atmospheric glow */
+
+.alien-sky {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(
+      circle at 70% 65%,
+      rgba(255, 181, 156, 0.55),
+      transparent 48%
+    ),
+    radial-gradient(
+      circle at 20% 15%,
+      rgba(117, 206, 235, 0.22),
+      transparent 40%
+    );
+}
+
+/* Distant moon */
+
+.alien-moon {
+  position: absolute;
+  top: 18px;
+  right: 42px;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  background: #c4e8f1;
+  box-shadow: 0 0 19px rgba(187, 238, 255, 0.75);
+}
+
+/* Alien mountain silhouettes */
+
+.alien-mountains {
+  position: absolute;
+  left: -10%;
+  width: 120%;
+  height: 65%;
+  clip-path: polygon(
+    0% 100%,
+    0% 75%,
+    15% 45%,
+    27% 72%,
+    43% 20%,
+    59% 72%,
+    74% 35%,
+    90% 68%,
+    100% 45%,
+    100% 100%
+  );
+}
+
+.alien-mountains.far {
+  bottom: 12px;
+  background: #625782;
+  opacity: 0.8;
+}
+
+.alien-mountains.near {
+  bottom: -20px;
+  background: #253c60;
+  transform: scaleX(-1);
+}
+
+/* Planet surface */
+
+.alien-ground {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  background: linear-gradient(
+    to bottom,
+    #294f60,
+    #102e39
+  );
+}
+
+/* Viewport label */
+
+.observation-label {
+  padding: 7px 0 2px;
+  color: #8bbcd4;
+  font-size: 9px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  text-align: center;
+}
+
+/* Hide on narrow screens to preserve workspace */
+
+@media (max-width: 800px) {
+  .observation-window {
+    display: none;
+  }
+}
+
+/* ========================================
+   SIDEBAR — FIXED BOTTOM SECTION
+   ======================================== */
+
+/* Organize the sidebar vertically */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+/* Allow the branch list to grow and scroll */
+#branchList {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+/* Keep the observation window near the bottom */
+.observation-window {
+  flex-shrink: 0;
+  margin-top: auto;
+  margin-bottom: 16px;
+}
+
+/* Keep Reset Investigation below the window */
+.sidebottom {
+  flex-shrink: 0;
+}
+
+/* ========================================
+   NEXT UNRESOLVED BRANCH HIGHLIGHT
+   ======================================== */
+
+.branch.next-branch {
+  border: 2px solid #55c7ed;
+  animation: branchPulse 2.5s ease-in-out infinite;
+}
+
+@keyframes branchPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 rgba(85, 199, 237, 0);
+  }
+
+  50% {
+    box-shadow: 0 0 14px rgba(85, 199, 237, 0.55);
+  }
+}
+
+/* Accessibility: reduce animation when requested */
+
+@media (prefers-reduced-motion: reduce) {
+  .branch.next-branch {
+    animation: none;
+    box-shadow: 0 0 0 2px rgba(85, 199, 237, 0.35);
+  }
+}
+
+/* ========================================
+   ALIEN EXPLORER — ARRIVAL ARTWORK
+   ======================================== */
+
+.arrival-artwork {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 24px;
+  overflow: hidden;
+  border-radius: 16px;
+  background: #101e30;
+  box-shadow: 0 10px 30px rgba(12, 36, 62, 0.18);
+}
+
+.arrival-artwork img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.arrival-status {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 14px;
+  border-radius: 30px;
+  background: rgba(12, 30, 50, 0.88);
+  color: #e3f5ff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+}
+
+.arrival-status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #67dfc2;
+  box-shadow: 0 0 8px rgba(103, 223, 194, 0.6);
+}
+
+@media (max-width: 600px) {
+  .arrival-status {
+    top: 10px;
+    right: 10px;
+    padding: 7px 10px;
+    font-size: 9px;
+    letter-spacing: 0.7px;
+  }
+}
+
+
+/* ========================================
+   SCENE 2 — DR. XYLA'S TRANSMISSION
+   ======================================== */
+
+/* Keep the second scene hidden until activated */
+#transmissionScreen[hidden] {
+  display: none !important;
+}
+
+.xyla-message {
+  margin: 22px 0;
+  padding: 20px 24px;
+  border-left: 4px solid #55c7ed;
+  border-radius: 10px;
+  background: rgba(85, 199, 237, 0.09);
+  line-height: 1.7;
+}
+
+.xyla-message p {
+  margin: 0 0 14px;
+}
+
+.xyla-message p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Introduction skip buttons */
+
+.intro-skip {
+  display: block;
+  margin: 14px auto 0;
+  padding: 7px 12px;
+  border: none;
+  background: transparent;
+  color: #607e9c;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.intro-skip:hover,
+.intro-skip:focus-visible {
+  color: #27a5ce;
+  text-decoration: underline;
+}
+
+.intro-skip:focus-visible {
+  outline: 2px solid #27a5ce;
+  outline-offset: 3px;
+}
+
+
+/* Keep Scene 3 hidden until the mission briefing is activated */
+
+#missionScreen[hidden] {
+  display: none !important;
+}
+
+
+#investigationSelectScreen[hidden] {
+  display: none !important;
+}
+
+
+#resumeScreen[hidden] {
+  display: none !important;
+}
+
+/* ========================================
+   SCENE 3 — HOLOGRAPHIC MISSION BRIEFING
+   ======================================== */
+
+/* Outer holographic console */
+.mission-console {
+  padding: 26px;
+  border: 1px solid #39769a;
+  border-radius: 16px;
+  background: linear-gradient(
+    145deg,
+    #102741,
+    #091a30
+  );
+  box-shadow:
+    inset 0 0 24px rgba(71, 192, 235, 0.08),
+    0 0 24px rgba(49, 165, 214, 0.12);
+  color: #e6f4ff;
+}
+
+/* Division identification */
+.mission-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #356486;
+}
+
+.mission-division {
+  color: #83c9e5;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+}
+
+.mission-signal {
+  color: #76dccb;
+  font-size: 20px;
+  text-shadow: 0 0 12px rgba(118, 220, 203, 0.5);
+}
+
+/* Mission heading */
+.mission-console h1 {
+  margin: 20px 0 4px;
+  color: #f1faff;
+  font-size: clamp(24px, 4vw, 34px);
+  letter-spacing: 1.5px;
+}
+
+.mission-subtitle {
+  margin: 0 0 20px;
+  color: #9fd4e7;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.mission-introduction {
+  margin: 0 0 22px;
+  color: #d7e8f4;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Objective cards */
+.mission-objectives {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.mission-objective {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 15px 18px;
+  border: 1px solid rgba(105, 190, 227, 0.16);
+  border-radius: 10px;
+  background: #193650;
+}
+
+.mission-number {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 9px;
+  background: #254d68;
+  color: #93e1f5;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.mission-objective h2 {
+  margin: 0 0 5px;
+  color: #f1faff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+.mission-objective p {
+  margin: 0;
+  color: #bed6e7;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Mission launch button */
+#launchWorkstation {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Smaller screens */
+@media (max-width: 600px) {
+  .mission-console {
+    padding: 18px;
+  }
+
+  .mission-division {
+    font-size: 9px;
+    letter-spacing: 0.6px;
+  }
+
+  .mission-objective {
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .mission-number {
+    width: 36px;
+    height: 36px;
+    font-size: 13px;
+  }
+
+  .mission-objective h2 {
+    font-size: 12px;
+  }
+
+  .mission-objective p {
+    font-size: 12px;
+  }
+}
+
+/* ========================================
+   SCENE 3 — HOLOGRAPHIC CONSOLE ENHANCEMENTS
+   ======================================== */
+
+.mission-console {
+  position: relative;
+  overflow: hidden;
+
+  /* Faint technical grid over a deep-space background */
+  background:
+    linear-gradient(
+      rgba(91, 196, 239, 0.035) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(91, 196, 239, 0.035) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      145deg,
+      #102c48,
+      #071426
+    );
+
+  background-size:
+    32px 32px,
+    32px 32px,
+    100% 100%;
+
+  border: 1px solid #56b8e2;
+
+  box-shadow:
+    0 0 0 1px rgba(86, 184, 226, 0.12),
+    0 0 28px rgba(35, 173, 233, 0.22),
+    inset 0 0 35px rgba(35, 173, 233, 0.07);
+}
+
+/* Illuminated upper-left corner */
+.mission-console::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 56px;
+  height: 56px;
+
+  border-top: 3px solid #80e5ff;
+  border-left: 3px solid #80e5ff;
+  border-top-left-radius: 16px;
+
+  filter: drop-shadow(0 0 7px rgba(128, 229, 255, 0.6));
+  pointer-events: none;
+}
+
+/* Illuminated lower-right corner */
+.mission-console::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 56px;
+  height: 56px;
+
+  border-right: 3px solid #80e5ff;
+  border-bottom: 3px solid #80e5ff;
+  border-bottom-right-radius: 16px;
+
+  filter: drop-shadow(0 0 7px rgba(128, 229, 255, 0.6));
+  pointer-events: none;
+}
+
+/* Give each objective a subtle illuminated edge */
+.mission-objective {
+  border-left: 3px solid #43b9e5;
+
+  background: linear-gradient(
+    90deg,
+    rgba(36, 105, 146, 0.55),
+    rgba(18, 48, 76, 0.9)
+  );
+}
+
+/* Make the objective numbers resemble console readouts */
+.mission-number {
+  border: 1px solid rgba(120, 224, 255, 0.5);
+  box-shadow: inset 0 0 12px rgba(72, 197, 240, 0.12);
+  color: #b2efff;
+}
+
+/* Soft glow on the mission heading */
+.mission-console h1 {
+  text-shadow: 0 0 18px rgba(102, 213, 255, 0.28);
+}
+
+
+/* Scene 3 — Pulsing mission status indicator */
+
+.mission-signal {
+  display: inline-block;
+  font-size: 20px;
+  color: #76dccb;
+  animation: missionPulse 1.8s ease-in-out infinite;
+}
+
+@keyframes missionPulse {
+  0%, 100% {
+    opacity: 1;
+    color: #76dccb;
+    filter: drop-shadow(0 0 8px #76dccb);
+  }
+
+  50% {
+    opacity: 0.1;
+    color: #76dccb;
+    filter: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mission-signal {
+    animation: none;
+    opacity: 1;
+    filter: drop-shadow(0 0 8px #76dccb);
+  }
+}
+
+/* =========================================
+   RETURNING INVESTIGATOR — RESEARCH ARCHIVE
+   ========================================= */
+
+.resume-console {
+  position: relative;
+  padding: 30px;
+  border: 1px solid rgba(118, 220, 203, 0.45);
+  border-radius: 16px;
+  background:
+    linear-gradient(rgba(118, 220, 203, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(118, 220, 203, 0.035) 1px, transparent 1px),
+    linear-gradient(145deg, #10283d, #091725);
+  background-size: 28px 28px, 28px 28px, auto;
+  box-shadow:
+    inset 0 0 30px rgba(118, 220, 203, 0.04),
+    0 0 24px rgba(45, 167, 183, 0.12);
+}
+
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  color: #8ddbd6;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.resume-status {
+  color: #76dccb;
+  text-shadow: 0 0 12px rgba(118, 220, 203, 0.7);
+}
+
+#resumeTitle {
+  color: #e8faff;
+  font-size: clamp(24px, 4vw, 34px);
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+
+.resume-description {
+  margin: 18px 0 24px;
+  color: #c5dce7;
+  line-height: 1.65;
+}
+
+.resume-record {
+  padding: 20px;
+  margin-bottom: 26px;
+  border: 1px solid rgba(118, 220, 203, 0.25);
+  border-radius: 10px;
+  background: rgba(118, 220, 203, 0.07);
+}
+
+.resume-record-label {
+  color: #8ddbd6;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
+}
+
+.resume-record-title {
+  color: #f0fbff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.resume-record-detail {
+  color: #a8d8e2;
+  font-size: 12px;
+  letter-spacing: 0.7px;
+}
+
+.resume-console .welcome-start {
+  width: 100%;
+}
+
+.resume-new {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  padding: 14px 18px;
+  border: 1px solid rgba(118, 220, 203, 0.4);
+  border-radius: 9px;
+  background: transparent;
+  color: #d7eff4;
+  font: inherit;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+}
+
+.resume-new:hover {
+  background: rgba(118, 220, 203, 0.1);
+  border-color: #76dccb;
+}
+
+.resume-new:focus-visible {
+  outline: 3px solid #76dccb;
+  outline-offset: 3px;
+}
+
+.resume-warning {
+  margin-top: 14px;
+  color: #a9c3ce;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .resume-console {
+    padding: 20px;
+  }
+
+  .resume-header {
+    font-size: 10px;
+    letter-spacing: 0.8px;
+  }
+}
+
+.resume-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 24px;
+  overflow-y: auto;
+  background: #091725;
+  box-sizing: border-box;
+}
+
+.resume-screen[hidden] {
+  display: none !important;
+}
+
+
+/* =========================================
+   A0 / A1 INVESTIGATION SELECTION
+   ========================================= */
+
+.investigation-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 26px;
+}
+
+.investigation-option {
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+  border: 1px solid rgba(118, 220, 203, 0.3);
+  border-radius: 12px;
+  background: linear-gradient(
+    145deg,
+    rgba(118, 220, 203, 0.09),
+    rgba(20, 52, 76, 0.35)
+  );
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.investigation-option:hover {
+  border-color: rgba(118, 220, 203, 0.75);
+  box-shadow: 0 0 20px rgba(118, 220, 203, 0.1);
+}
+
+.investigation-option-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+  color: #76dccb;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.investigation-option h2 {
+  margin: 0 0 14px;
+  color: #e8faff;
+  font-size: 17px;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+}
+
+.investigation-option p {
+  flex-grow: 1;
+  margin: 0 0 24px;
+  color: #c5dce7;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.investigation-option .welcome-start {
+  width: 100%;
+  margin-top: auto;
+}
+
+@media (max-width: 650px) {
+  .investigation-options {
+    grid-template-columns: 1fr;
+  }
+
+  .investigation-option {
+    padding: 18px;
+  }
+}
+
+
+/* =========================================
+   RESEARCH ARCHIVE — LAYOUT REFINEMENTS
+   ========================================= */
+
+/* Give the archive more horizontal space */
+#resumeScreen .welcome-panel {
+  width: min(1100px, 96vw);
+  max-width: 1100px;
+}
+
+#resumeScreen .resume-console {
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+}
+
+/* Center both investigation titles */
+#resumeScreen .investigation-option h2 {
+  text-align: center;
+}
+
+/* Keep resume button text and arrow on one line */
+#resumeScreen .investigation-option .welcome-start {
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+/* Preserve readability on smaller screens */
+@media (max-width: 650px) {
+  #resumeScreen .investigation-option .welcome-start {
+    white-space: normal;
+  }
+}
+
+
+/* Researcher identification — investigation selection */
+
+#investigationSelectScreen .researcher-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 24px 0 28px;
+  max-width: 420px;
+}
+
+#investigationSelectScreen .researcher-entry label {
+  color: #76d9ee;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+#investigationSelectScreen .researcher-entry input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px 16px;
+
+  background: #102b40;
+  color: #f0f9ff;
+
+  border: 1px solid #36718a;
+  border-radius: 8px;
+
+  font: inherit;
+  font-size: 16px;
+
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#investigationSelectScreen .researcher-entry input::placeholder {
+  color: #829eae;
+}
+
+#investigationSelectScreen .researcher-entry input:focus {
+  border-color: #6de4f5;
+  box-shadow: 0 0 0 3px rgba(109, 228, 245, 0.15);
+}
+
+
+/* Research Archive — researcher identification */
+
+#resumeScreen .researcher-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 24px 0 20px;
+  width: 100%;
+}
+
+#resumeScreen .researcher-entry label {
+  color: #76d9ee;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+#resumeScreen .researcher-entry input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px 16px;
+  background: #102b40;
+  color: #f0f9ff;
+  border: 1px solid #36718a;
+  border-radius: 8px;
+  font: inherit;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#resumeScreen .researcher-entry input::placeholder {
+  color: #829eae;
+}
+
+#resumeScreen .researcher-entry input:focus {
+  border-color: #6de4f5;
+  box-shadow: 0 0 0 3px rgba(109, 228, 245, 0.15);
+}
+/* ========================================
+   ANIMAL INVESTIGATION MISSION CONSOLE
+   ======================================== */
+
+.animal-mission-panel {
+  margin: 18px 10px;
+  padding: 14px;
+  background: rgba(4, 20, 42, 0.65);
+  border: 1px solid rgba(77, 172, 214, 0.25);
+  border-radius: 12px;
+}
+
+.animal-mission-label {
+  margin-bottom: 12px;
+  color: #80bfdc;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+}
+
+#beginAnimalInvestigation {
+  width: 100%;
+  padding: 13px 10px;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  line-height: 1.5;
+  text-align: center;
+  transition: all 0.25s ease;
+}
+
+/* Locked mission */
+#beginAnimalInvestigation:disabled {
+  background: rgba(35, 54, 76, 0.65);
+  border: 1px solid rgba(123, 156, 179, 0.35);
+  color: #91a9bb;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Unlocked mission */
+#beginAnimalInvestigation.unlocked {
+  background: linear-gradient(135deg, #07576c, #087d91);
+  border: 1px solid #56e1ef;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow:
+    0 0 12px rgba(51, 221, 239, 0.25),
+    inset 0 0 10px rgba(109, 237, 255, 0.12);
+}
+
+#beginAnimalInvestigation.unlocked:hover {
+  background: linear-gradient(135deg, #087d91, #0ba4b5);
+  box-shadow:
+    0 0 20px rgba(51, 221, 239, 0.45),
+    inset 0 0 12px rgba(109, 237, 255, 0.2);
+  transform: translateY(-1px);
+}
+
+.animal-mission-hint {
+  margin: 10px 0 0;
+  color: #91b8ce;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+/* Keep transmission screens hidden until activated */
+.welcome-screen[hidden] {
+  display: none !important;
+}
+
+/* ========================================
+   LIVING SPECIMEN TANK — PROTOTYPE
+   ======================================== */
+
+#specimenTankPrototype {
+  width: 100%;
+  max-width: 320px;
+  margin: 12px auto 16px;
+}
+
+.specimen-tank {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.specimen-tank img {
+  position: absolute;
+  display: block;
+}
+
+.tank-background,
+.tank-foreground {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  inset: 0;
+}
+
+.tank-background {
+  z-index: 1;
+}
+
+.tank-creature {
+  z-index: 2;
+  width: 45%;
+  height: 45%;
+  object-fit: contain;
+  left: 27.5%;
+  top: 30%;
+}
+
+.tank-foreground {
+  z-index: 3;
+}
+/* Gentle movement for living Hoopler specimens */
+
+@keyframes hooplerSway {
+  0%, 100% {
+    transform: rotate(-2deg);
+  }
+
+  50% {
+    transform: rotate(2deg);
+  }
+}
+
+.tank-creature {
+  transform-origin: center bottom;
+  animation:
+    hooplerSway 4s ease-in-out infinite,
+    hooplerHop 11s ease-in-out infinite;
+}
+
+@keyframes hooplerHop {
+  0%, 65%, 75%, 100% {
+    translate: 0 0;
+  }
+
+  70% {
+    translate: 0 -9px;
+  }
+}
+/* ========================================
+   XENOZOOLOGY RESEARCH WORKSTATION
+   ======================================== */
+
+#animalWorkstation {
+  min-height: 100vh;
+  padding: 0;
+  background:
+    radial-gradient(
+      ellipse at 50% 0%,
+      rgba(36, 112, 155, 0.32),
+      transparent 65%
+    ),
+    linear-gradient(
+      180deg,
+      #102638 0%,
+      #07131f 100%
+    );
+  color: #eaf8ff;
+}
+
+.animal-workstation-header {
+  max-width: 1100px;
+  margin: 0 auto 30px;
+  padding: 28px 34px;
+  background: rgba(17, 47, 67, 0.88);
+  border: 1px solid rgba(100, 210, 240, 0.35);
+  border-radius: 18px;
+  box-shadow: 0 0 35px rgba(37, 157, 203, 0.12);
+}
+
+.animal-workstation-eyebrow {
+  color: #76d9ee;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.animal-workstation-header h1 {
+  color: #ffffff;
+  font-size: clamp(1.8rem, 4vw, 2.7rem);
+  margin: 0 0 12px;
+}
+
+.animal-workstation-header p {
+  color: #b7d6e6;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ========================================
+   XENOZOOLOGY WORKSTATION — MAIN LAYOUT
+   ======================================== */
+
+.animal-workstation-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 24px;
+  max-width: 1400px;
+  margin: 16px auto 0;
+  align-items: start;
+}
+
+/* Gallery and observation panels */
+
+.animal-gallery-panel,
+.animal-observation-panel {
+  background: rgba(17, 47, 67, 0.88);
+  border: 1px solid rgba(100, 210, 240, 0.35);
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 0 35px rgba(37, 157, 203, 0.12);
+}
+
+.animal-gallery-panel h2,
+.animal-observation-panel h2 {
+  color: #ffffff;
+  font-size: 1.35rem;
+  margin: 0 0 10px;
+}
+
+.animal-gallery-panel p,
+.animal-observation-panel p {
+  color: #b7d6e6;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0 0 20px;
+}
+
+/* Space for our future living specimen gallery */
+
+#animalSpecimenGallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  min-height: 300px;
+}
+
+/* Keep the observation tank centered */
+
+.animal-observation-panel #specimenTankPrototype {
+  margin: 20px auto;
+}
+
+/* Adapt to smaller screens */
+
+@media (max-width: 850px) {
+  .animal-workstation-layout {
+    grid-template-columns: 1fr;
+  }
+}
+/* ========================================
+   XENOZOOLOGY — GALLERY SPECIMEN CARDS
+   ======================================== */
+
+.gallery-specimen {
+  background: rgba(7, 25, 39, 0.65);
+  border: 1px solid rgba(100, 210, 240, 0.25);
+  border-radius: 14px;
+  padding: 4px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.gallery-specimen:hover {
+  border-color: rgba(118, 217, 238, 0.8);
+  box-shadow: 0 0 18px rgba(37, 157, 203, 0.2);
+}
+
+.gallery-tank {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.specimen-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-top: 8px;
+  color: #eaf8ff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.specimen-status {
+  color: #76d9ee;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* ========================================
+   XENOZOOLOGY — SELECTED SPECIMEN
+   ======================================== */
+
+.gallery-specimen {
+  cursor: pointer;
+}
+
+.gallery-specimen.selected {
+  border-color: #76d9ee;
+  background: rgba(37, 112, 155, 0.25);
+  box-shadow:
+    0 0 0 1px rgba(118, 217, 238, 0.5),
+    0 0 22px rgba(37, 157, 203, 0.3);
+}
+
+#selectedSpecimenHeading {
+  color: #76d9ee;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin: 12px 0 0;
+}
+
+.tank-creature[hidden] {
+  display: none !important;
+}
+
+/* ========================================
+   XENOZOOLOGY — MUPAL MOVEMENT
+   ======================================== */
+@keyframes mupalWiggle {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-1deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: rotate(1deg);
+  }
+}
+
+@keyframes mupalBounce {
+  /* Start at center */
+  0%, 6% {
+    translate: 0 0;
+  }
+
+  /* Quick hop left */
+  7% {
+    translate: -12% -18px;
+  }
+  8% {
+    translate: -24% 0;
+  }
+
+  /* Small rebound */
+  9% {
+    translate: -24% -8px;
+  }
+  10%, 26% {
+    translate: -24% 0;
+  }
+
+  /* Quick hop back to center */
+  27% {
+    translate: -12% -18px;
+  }
+  28% {
+    translate: 0 0;
+  }
+
+  /* Small rebound */
+  29% {
+    translate: 0 -8px;
+  }
+  30%, 46% {
+    translate: 0 0;
+  }
+
+  /* Quick hop right */
+  47% {
+    translate: 12% -18px;
+  }
+  48% {
+    translate: 24% 0;
+  }
+
+  /* Small rebound */
+  49% {
+    translate: 24% -8px;
+  }
+  50%, 66% {
+    translate: 24% 0;
+  }
+
+  /* Quick hop back to center */
+  67% {
+    translate: 12% -18px;
+  }
+  68% {
+    translate: 0 0;
+  }
+
+  /* Small rebound */
+  69% {
+    translate: 0 -8px;
+  }
+  70%, 86% {
+    translate: 0 0;
+  }
+
+  /* Quick hop left again */
+  87% {
+    translate: -12% -18px;
+  }
+  88% {
+    translate: -24% 0;
+  }
+
+  /* Small rebound */
+  89% {
+    translate: -24% -8px;
+}
+  90%, 96% {
+  translate: -24% 0;
+}
+
+/* Quick hop back to center */
+97% {
+  translate: -12% -18px;
+}
+98% {
+  translate: 0 0;
+}
+
+/* Small rebound at center */
+99% {
+  translate: 0 -8px;
+}
+100% {
+  translate: 0 0;
+}
+}
+.gallery-specimen[data-specimen^="M-"] .tank-creature,
+.tank-creature.observing-mupal {
+  animation:
+    mupalWiggle 3s ease-in-out infinite,
+    mupalBounce 35s ease-in-out infinite;
+}
+
+/* ========================================
+   XENOZOOLOGY — SPECIMEN GALLERY TABS
+   ======================================== */
+
+.specimen-gallery-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.specimen-gallery-tab {
+  flex: 1;
+  padding: 12px 10px;
+  background: rgba(7, 25, 39, 0.75);
+  color: #b7d6e6;
+  border: 1px solid rgba(100, 210, 240, 0.3);
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  transition:
+    background 0.2s,
+    border-color 0.2s,
+    color 0.2s,
+    box-shadow 0.2s;
+}
+
+.specimen-gallery-tab:hover {
+  background: rgba(37, 157, 203, 0.15);
+  border-color: #64d2f0;
+  color: #ffffff;
+}
+
+.specimen-gallery-tab.active {
+  background: rgba(37, 157, 203, 0.25);
+  border-color: #64d2f0;
+  color: #ffffff;
+  box-shadow: 0 0 14px rgba(100, 210, 240, 0.15);
+}
+
+.specimen-gallery-tab:focus-visible {
+  outline: 2px solid #64d2f0;
+  outline-offset: 3px;
+}
+
+.gallery-specimen[hidden] {
+  display: none !important;
+}
+
+/* ========================================
+   XENOZOOLOGY — INDEPENDENT MUPAL MOVEMENT
+   ======================================== */
+
+.gallery-specimen[data-specimen="M-01"] .tank-creature {
+  animation-delay: -2s, -7s;
+}
+
+.gallery-specimen[data-specimen="M-02"] .tank-creature {
+  animation-delay: -1s, -18s;
+}
+
+.gallery-specimen[data-specimen="M-03"] .tank-creature {
+  animation-delay: -2.5s, -29s;
+}
+
+.gallery-specimen[data-specimen="M-04"] .tank-creature {
+  animation-delay: -0.5s, -12s;
+}
+
+.gallery-specimen[data-specimen="M-05"] .tank-creature {
+  animation-delay: -1.8s, -24s;
+}
+
+.gallery-specimen[data-specimen="M-06"] .tank-creature {
+  animation-delay: -0.8s, -4s;
+}
+
+.gallery-specimen[data-specimen="M-07"] .tank-creature {
+  animation-delay: -2.2s, -33s;
+}
+
+.gallery-specimen[data-specimen="M-08"] .tank-creature {
+  animation-delay: -1.3s, -15s;
+}
+
+.gallery-specimen[data-specimen="M-09"] .tank-creature {
+  animation-delay: -2.7s, -21s;
+}
+
+.gallery-specimen[data-specimen="M-10"] .tank-creature {
+  animation-delay: -0.3s, -9s;
+}
+
+/* ========================================
+   XENOZOOLOGY — INDEPENDENT HOOPLER MOVEMENT
+   ======================================== */
+
+.gallery-specimen[data-specimen="H-01"] .tank-creature {
+  animation-delay: -0.5s;
+}
+
+.gallery-specimen[data-specimen="H-02"] .tank-creature {
+  animation-delay: -2.8s;
+}
+
+.gallery-specimen[data-specimen="H-03"] .tank-creature {
+  animation-delay: -5.4s;
+}
+
+.gallery-specimen[data-specimen="H-04"] .tank-creature {
+  animation-delay: -1.7s;
+}
+
+.gallery-specimen[data-specimen="H-05"] .tank-creature {
+  animation-delay: -7.2s;
+}
+
+.gallery-specimen[data-specimen="H-06"] .tank-creature {
+  animation-delay: -3.6s;
+}
+
+.gallery-specimen[data-specimen="H-07"] .tank-creature {
+  animation-delay: -9.1s;
+}
+
+.gallery-specimen[data-specimen="H-08"] .tank-creature {
+  animation-delay: -4.3s;
+}
+
+.gallery-specimen[data-specimen="H-09"] .tank-creature {
+  animation-delay: -6.5s;
+}
+
+.gallery-specimen[data-specimen="H-10"] .tank-creature {
+  animation-delay: -8.2s;
+}
+
+/* Compact Xenozoology Workstation Title */
+
+.animal-workstation-title {
+  grid-column: 1 / -1;
+}
+
+.animal-workstation-title h2 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Expedition-wide Research Notebook button */
+
+.research-notebook-btn {
+  margin-left: auto;
+  padding: 10px 16px;
+  background: rgba(100, 210, 240, 0.12);
+  border: 1px solid rgba(100, 210, 240, 0.5);
+  border-radius: 8px;
+  color: #eaf8ff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.research-notebook-btn:hover {
+  background: rgba(100, 210, 240, 0.25);
+}
+
+/* Research Notebook visibility test */
+
+.research-notebook-overlay[hidden] {
+  display: none !important;
+}
+
+.research-notebook-overlay:not([hidden]) {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(3, 12, 22, 0.85);
+}
+/* Research Notebook — paper journal styling */
+
+.research-notebook {
+  width: min(900px, 100%);
+  max-height: 90vh;
+  overflow-y: auto;
+  background: #f7f0dc;
+  color: #283a3b;
+  border: 1px solid #c7b994;
+  border-left: 18px solid #526b66;
+  border-radius: 8px 14px 14px 8px;
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.5);
+}
+
+/* Research Notebook — header layout */
+
+.research-notebook-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 30px 36px 22px;
+  border-bottom: 2px solid #c7b994;
+}
+
+.research-notebook-header small {
+  color: #697b72;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.research-notebook-header h2 {
+  margin: 8px 0;
+  color: #283a3b;
+  font-size: 2rem;
+}
+
+.research-notebook-header p {
+  margin: 0;
+  color: #697b72;
+}
+
+/* Research Notebook — page spacing */
+
+.research-notebook-content {
+  padding: 30px 36px 45px;
+}
+
+/* Research Notebook — close button */
+
+#closeResearchNotebook {
+  padding: 9px 14px;
+  background: #e8ddc3;
+  color: #526b66;
+  border: 1px solid #b8aa89;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+#closeResearchNotebook:hover {
+  background: #dcd0b1;
+  transform: translateY(-1px);
+}
+/* Subtle transmission skip option */
+
+.skip-transmission {
+  display: block;
+  margin: 14px 0 0 auto;
+  padding: 6px 2px;
+  background: transparent;
+  border: none;
+  color: #a9bdc8;
+  font-size: 0.78rem;
+  font-weight: 500;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.skip-transmission:hover {
+  color: #ffffff;
+  opacity: 1;
+  text-decoration: underline;
+}
+
+/* ========================================
+   RESEARCH NOTEBOOK — INVESTIGATION CARDS
+   ======================================== */
+
+.notebook-investigation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.notebook-investigation {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  width: 100%;
+  padding: 20px 22px;
+
+  background: #fffdf5;
+  border: 1px solid #d8ceb5;
+  border-left: 5px solid #698b79;
+  border-radius: 8px;
+
+  color: #283a3b;
+  text-align: left;
+  cursor: pointer;
+
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.notebook-investigation-icon {
+  font-size: 1.7rem;
+  flex-shrink: 0;
+}
+
+.notebook-investigation-details {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.notebook-investigation-details strong {
+  font-size: 1rem;
+  color: #283a3b;
+}
+
+.notebook-investigation-details small {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #697b72;
+}
+
+.notebook-investigation-arrow {
+  font-size: 1.3rem;
+  color: #526b66;
+  flex-shrink: 0;
+}
+
+/* Available investigation */
+
+.notebook-investigation:not(:disabled):hover {
+  background: #f0ead9;
+  transform: translateX(3px);
+}
+
+/* Locked investigation */
+
+.notebook-investigation:disabled {
+  background: #eae5d7;
+  border-left-color: #a6a99d;
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+/* ========================================
+   XENOZOOLOGY — IDENTIFICATION CONSOLE
+   ======================================== */
+
+.animal-identification-console {
+  margin-top: 24px;
+  padding: 22px;
+  background: #edf4f1;
+  border: 1px solid #b8d0c5;
+  border-left: 4px solid #477b68;
+  border-radius: 10px;
+}
+
+.animal-identification-console h3 {
+  margin: 0 0 10px;
+  color: #244c3e;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.animal-identification-console > p {
+  margin: 0 0 14px;
+  color: #52675d;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+#animalKeyInterface {
+  min-height: 48px;
+}
+
+/* ========================================
+   XENOZOOLOGY — SCROLLABLE DICHOTOMOUS KEY
+   ======================================== */
+
+.animal-key-couplets {
+  max-height: 340px;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  padding: 12px;
+  margin-top: 14px;
+
+  background: #ffffff;
+  border: 1px solid #c5d7cf;
+  border-radius: 8px;
+
+  scrollbar-width: thin;
+  scrollbar-color: #7a9d8e #edf4f1;
+}
+
+/* Individual numbered couplets */
+
+.animal-key-couplet {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+
+  padding: 12px 8px;
+  border-bottom: 1px solid #e2ebe6;
+}
+
+.animal-key-couplet:last-child {
+  border-bottom: none;
+}
+
+/* Question numbers */
+
+.animal-key-couplet > strong {
+  flex-shrink: 0;
+  min-width: 26px;
+
+  color: #326451;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* Paired statements */
+
+.animal-key-couplet > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.animal-key-couplet p {
+  margin: 0 0 8px;
+  color: #30453b;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.animal-key-couplet p:last-child {
+  margin-bottom: 0;
+}
+
+/* Scientific species names */
+
+.animal-key-couplet em {
+  color: #245f4b;
+  font-weight: 600;
+}
+
+/* Keep all dichotomous key couplets in one vertical column */
+
+#animalKeyCouplets {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+#animalKeyCouplets > .animal-key-couplet {
+  width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+/* ========================================
+   XENOZOOLOGY — DICHOTOMOUS KEY HEADER
+   ======================================== */
+
+#animalKeyInterface .animal-key-header {
+  margin-bottom: 14px;
+}
+
+#animalKeyInterface .animal-key-header h4 {
+  margin: 0 0 8px;
+  color: #244c3e;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+#animalKeyInterface .animal-key-header p {
+  margin: 0;
+  color: #405c50;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+/* ========================================
+   XENOZOOLOGY — SPECIES IDENTIFICATION FORM
+   ======================================== */
+
+.animal-identification-form {
+  margin: 12px 0 20px;
+  padding: 20px;
+  background: rgba(33, 83, 104, 0.85);
+  border: 1px solid rgba(100, 210, 240, 0.45);
+  border-radius: 12px;
+}
+
+.animal-identification-form label {
+  display: block;
+  margin-bottom: 12px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#animalSpeciesInput {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  background: #ffffff;
+  color: #203b45;
+font-style: italic;
+  border: 2px solid #9dcbd6;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+#animalSpeciesInput:focus {
+  outline: 3px solid rgba(100, 210, 240, 0.4);
+  border-color: #42b8d7;
+}
+
+#submitAnimalIdentification {
+  width: 100%;
+  padding: 13px 18px;
+  background: #48bfa9;
+  color: #102f36;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#submitAnimalIdentification:hover {
+  background: #6dd8c4;
+}
+
+#submitAnimalIdentification:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+}
+
+#animalIdentificationFeedback {
+  margin: 0;
+  color: #ffffff;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+#animalIdentificationFeedback:not(:empty) {
+  margin-top: 12px;
+}
+
+/* ========================================
+   XENOZOOLOGY — IDENTIFIED HABITAT CARDS
+   ======================================== */
+
+/* Highlight successfully identified specimens */
+#animalSpecimenGallery .gallery-specimen.identified {
+  border-color: #68d8b5;
+}
+
+/* Display confirmed scientific names */
+#animalSpecimenGallery .confirmed-species-name {
+  margin: 8px 8px 4px;
+  padding: 0 4px;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+/* Highlight the identification status */
+#animalSpecimenGallery .gallery-specimen.identified
+  .specimen-status {
+  color: #68d8b5;
+}
+
+/* ========================================
+   RESEARCH NOTEBOOK — PAGE TRANSITION
+   ======================================== */
+
+@keyframes notebookPageTurn {
+  from {
+    opacity: 0;
+    transform: perspective(1000px) rotateY(-12deg) translateX(18px);
+    transform-origin: left center;
+  }
+
+  to {
+    opacity: 1;
+    transform: perspective(1000px) rotateY(0deg) translateX(0);
+    transform-origin: left center;
+  }
+}
+
+.expedition-field-guide.page-turning {
+  animation: notebookPageTurn 0.65s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .expedition-field-guide.page-turning {
+    animation: none;
+  }
+}
+/* Keep the Field Guide completely hidden until opened. */
+#expeditionFieldGuide[hidden] {
+  display: none !important;
+}
+
+/* Make the page-turn animation target explicit. */
+#expeditionFieldGuide.page-turning:not([hidden]) {
+  animation: notebookPageTurn 0.65s ease-out both;
+}
+/* ========================================
+   RESEARCH NOTEBOOK — SEPARATE PAGE VIEWS
+   ======================================== */
+
+/* Respect JavaScript's hidden attribute for notebook elements. */
+.research-notebook-content [hidden] {
+  display: none !important;
+}
+/* ========================================
+   EXPEDITION FIELD GUIDE — SPECIES CARDS
+   ======================================== */
+
+.animal-field-guide-entries {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.animal-field-guide-entry {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-width: 0;
+  padding: 16px;
+  border: 1px solid #b8d0df;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ffffff, #eef6fa);
+  box-shadow: 0 3px 10px rgba(20, 50, 70, 0.08);
+}
+
+.animal-field-guide-image {
+  display: block;
+  width: 100px;
+  height: 100px;
+  flex: 0 0 100px;
+  object-fit: contain;
+}
+
+.animal-field-guide-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.animal-field-guide-number {
+  color: #52768c;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.animal-field-guide-species {
+  color: #173e58;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+@media (max-width: 700px) {
+  .animal-field-guide-entries {
+    grid-template-columns: 1fr;
+  }
+}
+/* ========================================
+   EXPEDITION FIELD GUIDE — BACK BUTTON
+   ======================================== */
+
+.notebook-back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  margin-bottom: 22px;
+  padding: 10px 16px;
+
+  background: #e3eef5;
+  color: #24516d;
+
+  border: 1px solid #a9c6d8;
+  border-radius: 8px;
+
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.notebook-back-button:hover {
+  background: #cfe6f3;
+  border-color: #69a9ca;
+  transform: translateX(-3px);
+}
+
+.notebook-back-button:focus-visible {
+  outline: 3px solid #238fbd;
+  outline-offset: 3px;
+}
+/* ========================================
+   XENOZOOLOGY — RESEARCH PROGRESS
+   ======================================== */
+
+#animalResearchProgress {
+  background: #102c40;
+  color: #eaf6ff;
+
+  border: 1px solid #28617a;
+  border-left: 4px solid #39c9f4;
+  border-radius: 10px;
+
+  padding: 12px 20px;
+  margin: 12px 3% 0;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px 28px;
+
+  box-sizing: border-box;
+}
+
+#animalResearchProgress h3 {
+  color: #ffffff;
+  font-size: 15px;
+  margin: 0 16px 0 0;
+}
+
+#animalResearchProgress p {
+  color: #c9e3f2;
+  font-size: 13px;
+  margin: 0;
+}
+
+#animalResearchProgress strong {
+  color: #48ddf5;
+  font-size: 15px;
+}
+
+/* Keep the instructions compact */
+#animalResearchProgress p:last-child {
+  color: #9dbdce;
+  font-size: 12px;
+}
+
+/* Allow the tracker to stack on narrow screens */
+@media (max-width: 700px) {
+  #animalResearchProgress {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+/* ========================================
+   DAY 1 — COMPLETION TRANSMISSION
+   ======================================== */
+
+#day1CompletionMessage:not([hidden]) {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(3, 12, 25, 0.94);
+  padding: 24px;
+  box-sizing: border-box;
+
+  overflow-y: auto;
+  text-align: center;
+  color: #eaf6ff;
+}
+
+#day1CompletionMessage[hidden] {
+  display: none !important;
+}
+
+/* Scientists' transmission image */
+
+#day1CompletionMessage .day1-completion-image {
+  display: block;
+  width: 100%;
+  max-width: 780px;
+  max-height: 48vh;
+  object-fit: contain;
+
+  margin: 0 auto 18px;
+}
+
+/* Congratulations heading */
+
+#day1CompletionMessage h3 {
+  color: #48ddf5;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin: 0 0 8px;
+}
+
+#day1CompletionMessage h2 {
+  color: #ffffff;
+  font-size: clamp(22px, 3vw, 30px);
+  margin: 0 0 14px;
+}
+
+/* Editable mission text */
+
+#day1CompletionMessage p {
+  max-width: 680px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #c9e3f2;
+  margin: 0 auto 12px;
+}
+
+/* Return to Research button */
+
+#day1ReturnToResearch {
+  margin-top: 16px;
+  padding: 13px 28px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+}

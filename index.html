@@ -1,0 +1,1421 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Exobiology Research Expedition</title><link rel="stylesheet" href="style.css"></head><body>
+<!-- ========================================
+     RETURNING INVESTIGATOR — SAVED RESEARCH
+     ======================================== -->
+
+
+<!-- ========================================
+     RESEARCH ARCHIVE — A0 AND A1
+     ======================================== -->
+
+<section
+  id="resumeScreen"
+  class="resume-screen"
+  aria-labelledby="resumeTitle"
+  hidden
+>
+  <div class="welcome-panel">
+    <div class="resume-console">
+
+      <div class="resume-header">
+        <span>RESEARCH ARCHIVE · LATHONERTH</span>
+        <span class="resume-status" aria-hidden="true">●</span>
+      </div>
+
+      <h1 id="resumeTitle">
+        WELCOME BACK, INVESTIGATOR
+      </h1>
+
+      <p class="resume-description">
+        Previous research data has been detected on this device.
+        Your investigations have been preserved.
+        Select a research record to continue or begin a new survey.
+      </p>
+
+      <div class="investigation-options">
+
+        <!-- A0 RESEARCH RECORD -->
+        <div class="investigation-option">
+
+          <div class="investigation-option-header">
+            <span>EXPEDITION A0</span>
+            <span>06 SPECIMENS</span>
+          </div>
+
+          <h2>FOCUSED BIODIVERSITY SURVEY</h2>
+
+          <p id="a0ArchiveStatus">
+            Checking research records...
+          </p>
+
+<p id="a0ArchiveResearcher" class="archive-researcher" hidden></p>
+
+<div class="researcher-entry">
+  <label for="a0ResearcherInput">
+    RESEARCHER IDENTIFICATION
+  </label>
+  <input
+    type="text"
+    id="a0ResearcherInput"
+    placeholder="Enter or update researcher name"
+    maxlength="60"
+    autocomplete="off"
+  />
+</div>
+
+<button
+  type="button"
+  id="resumeA0"
+  class="welcome-start"
+  hidden
+>
+  RESUME INVESTIGATION →
+</button>
+
+<button
+  type="button"
+  id="newA0"
+  class="resume-new"
+>
+  START NEW INVESTIGATION
+</button>
+
+</div>
+
+<!-- A1 RESEARCH RECORD -->
+<div class="investigation-option">
+
+  <div class="investigation-option-header">
+    <span>EXPEDITION A1</span>
+    <span>10 SPECIMENS</span>
+  </div>
+
+  <h2>EXTENDED BIODIVERSITY SURVEY</h2>
+
+  <p id="a1ArchiveStatus">
+    Checking research records...
+  </p>
+
+  <p id="a1ArchiveResearcher" class="archive-researcher" hidden></p>
+
+  <div class="researcher-entry">
+    <label for="a1ResearcherInput">
+      RESEARCHER IDENTIFICATION
+    </label>
+    <input
+      type="text"
+      id="a1ResearcherInput"
+      placeholder="Enter or update researcher name"
+      maxlength="60"
+      autocomplete="off"
+    />
+  </div>
+
+  <button
+    type="button"
+    id="resumeA1"
+    class="welcome-start"
+    hidden
+  >
+    RESUME INVESTIGATION →
+  </button>
+
+  <button
+    type="button"
+    id="newA1"
+    class="resume-new"
+  >
+    START NEW INVESTIGATION
+  </button>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+
+<section id="welcomeScreen" class="welcome-screen" aria-labelledby="welcomeTitle">
+  <div class="welcome-panel">
+
+    <!-- Scene 1: Approaching Lathonerth -->
+    <div class="arrival-artwork">
+      <img
+        src="assets/lathonerth-approach.png"
+        alt="View from an alien spacecraft approaching the mysterious planet Lathonerth."
+      >
+
+      <div class="arrival-status">
+        <span class="arrival-status-dot"></span>
+        ORBITAL APPROACH
+      </div>
+    </div>
+
+    <div class="welcome-eyebrow">
+      INTERSTELLAR ECOLOGICAL RESEARCH DIVISION · MISSION 01
+    </div>
+
+    
+<!-- Scene 1: Arrival briefing -->
+
+<h1 id="welcomeTitle">APPROACHING LATHONERTH</h1>
+
+<p>
+  You are an alien on a research vessel that is entering orbit around
+  a newly discovered planet.
+</p>
+
+<p>
+  You are the expedition's <strong>lead alien biologist</strong>.
+  An unfamiliar world awaits your investigation.
+</p>
+
+
+    <button type="button" id="beginExpedition" class="welcome-start">
+      BEGIN EXPEDITION →
+    </button>
+<button type="button" class="intro-skip">
+  SKIP INTRODUCTION →
+</button>
+  </div>
+</section>
+
+
+<!-- ========================================
+     SCENE 2 — DR. XYLA'S TRANSMISSION
+     ======================================== -->
+
+<section
+  id="transmissionScreen"
+  class="welcome-screen"
+  aria-labelledby="transmissionTitle"
+  hidden
+>
+  <div class="welcome-panel">
+
+    <!-- Transmission artwork -->
+    <div class="arrival-artwork">
+      <img
+        src="assets/dr-xyla-transmission.png"
+        alt="Dr. Xyla, an alien scientist, aboard the research vessel with fellow researchers and planet Lathonerth visible behind her."
+      >
+
+      <div class="arrival-status">
+        <span class="arrival-status-dot"></span>
+        INCOMING TRANSMISSION
+      </div>
+    </div>
+
+    <!-- Colleague identification -->
+    <div class="welcome-eyebrow">
+      XENOBOTANY RESEARCH DIVISION
+    </div>
+
+    <h1 id="transmissionTitle">DR. XYLA</h1>
+
+    <!-- Mission dialogue -->
+    
+<div class="xyla-message">
+  <p>
+    "Perfect timing! Our survey team has just collected some
+    unfamiliar plant specimens from Lathonerth. We've never
+    encountered organisms quite like these before. We need
+    a reliable way to distinguish one species from another.
+  </p>
+
+  <p>
+    That's where you come in. I've transferred the specimens
+    to your classification workstation. Ready to take a look?"
+  </p>
+</div>
+
+
+    <button
+      type="button"
+      id="continueToMission"
+      class="welcome-start"
+    >
+      CONTINUE →
+    </button>
+
+<button type="button" class="intro-skip">
+  SKIP INTRODUCTION →
+</button>
+
+  </div>
+</section>
+
+<!-- ========================================
+     BOTANICAL NAMING REMINDER
+     ======================================== -->
+
+<section
+  id="namingReminderScreen"
+  class="welcome-screen"
+  aria-labelledby="namingReminderTitle"
+  hidden
+>
+  <div class="welcome-panel">
+
+    <div class="welcome-eyebrow">
+      BOTANICAL RESEARCH CHECKPOINT
+    </div>
+
+    <h1 id="namingReminderTitle">
+      SOME OF YOUR PLANT SPECIMENS HAVEN'T BEEN NAMED YET!
+    </h1>
+
+    <div class="xyla-message">
+      <p>
+        Scientific naming is an important part of documenting
+        newly discovered species.
+      </p>
+
+      <p>
+        Would you like to return to the Scientific Naming tab
+        to name your remaining specimens before continuing?
+      </p>
+    </div>
+
+    <button
+      type="button"
+      id="returnToNaming"
+      class="welcome-start"
+    >
+      RETURN TO THE NAMING TAB →
+    </button>
+
+    <button
+      type="button"
+      id="continueWithReferenceNames"
+      class="intro-skip"
+    >
+      CONTINUE WITH EXPEDITION REFERENCE NAMES →
+    </button>
+
+  </div>
+</section>
+
+<!-- ========================================
+     DR. XYLA — ANIMAL INVESTIGATION TRANSMISSION
+     ======================================== -->
+
+<section
+  id="animalTransmissionScreen"
+  class="welcome-screen"
+  aria-labelledby="animalTransmissionTitle"
+  hidden
+>
+  <div class="welcome-panel">
+
+    <div class="arrival-artwork">
+      <img
+        src="assets/dr-xyla-transmission.png"
+        alt="Dr. Xyla aboard the research vessel."
+      >
+
+      <div class="arrival-status">
+        <span class="arrival-status-dot"></span>
+        INCOMING TRANSMISSION
+      </div>
+    </div>
+
+    <div class="welcome-eyebrow">
+      EXPEDITION CHIEF XENOBOTANIST
+    </div>
+
+    <h1 id="animalTransmissionTitle">DR. XYLA</h1>
+
+    <div class="xyla-message">
+      <p>
+        <span id="animalResearcherName">Researcher</span>,
+        your botanical investigation has given us valuable
+        information about the ecology of Lathonerth.
+        But our work is far from complete.
+      </p>
+
+      <p>
+        Our field teams have also discovered two remarkable
+        groups of animal-like organisms on this planet.
+        For the next portion of the investigation, you will
+        be working with our expedition's chief xenozoologist
+        to identify them.
+      </p>
+
+      <p>
+        I'll transfer you to Dr. Kaelo now.
+      </p>
+    </div>
+
+    <button
+      type="button"
+      id="continueToKaelo"
+      class="welcome-start"
+    >
+      CONTINUE →
+    </button>
+<button
+  type="button"
+  class="skip-transmission"
+  id="skipXylaIntroduction"
+>
+  Skip Introduction →
+</button>
+
+  </div>
+</section>
+
+<!-- ========================================
+     DR. KAELO — ANIMAL IDENTIFICATION TRANSMISSION
+     ======================================== -->
+
+<section
+  id="kaeloTransmissionScreen"
+  class="welcome-screen"
+  aria-labelledby="kaeloTransmissionTitle"
+  hidden
+>
+  <div class="welcome-panel">
+
+    <div class="arrival-artwork">
+      <img
+        src="assets/dr-kaelo-transmission.png"
+        alt="Dr. Kaelo, chief xenozoologist, presenting Mupal and Hoopler specimens in the research laboratory."
+      >
+
+      <div class="arrival-status">
+        <span class="arrival-status-dot"></span>
+        INCOMING TRANSMISSION
+      </div>
+    </div>
+
+    <div class="welcome-eyebrow">
+      EXPEDITION CHIEF XENOZOOLOGIST
+    </div>
+
+    <h1 id="kaeloTransmissionTitle">DR. KAELO</h1>
+
+    <div class="xyla-message">
+      <p>
+        Hello <span id="kaeloResearcherName">Researcher</span>!
+        I've been looking forward to working with you!
+      </p>
+
+      <p>
+        Our expedition has documented 20 species of animal-like
+        organisms here on Lathonerth. These 20 species belong
+        to two distinct genera, which we've named
+        <i>Mupal</i> and <i>Hoopler</i>.
+        Within the groups, though, some of the creatures look
+        surprisingly similar, which makes identifying individual
+        species a bit of a challenge.
+      </p>
+
+      <p>
+        Fortunately, I've developed a dichotomous key that will
+        help you distinguish them. Your mission is to examine
+        specimens carefully, follow the key, and record your
+        identifications in the expedition's Field Guide.
+      </p>
+
+      <p>
+        You can choose which organisms to investigate.
+        Before continuing with your expedition, you must identify
+        at least two Mupals and two Hooplers.
+        Any additional organisms that you have time to identify
+        will be added to your Field Guide, which will make future
+        ecology research tasks easier. So try to identify as
+        many as you can!
+      </p>
+
+      <p>
+        Remember: sometimes the smallest details make the
+        biggest difference when identifying an unfamiliar species.
+      </p>
+
+      <p>
+        Are you ready to meet some more of Lathonerth's inhabitants?
+      </p>
+    </div>
+
+    <button
+      type="button"
+      id="continueToAnimalWorkstation"
+      class="welcome-start"
+    >
+      BEGIN ANIMAL IDENTIFICATION →
+    </button>
+<button
+  type="button"
+  class="skip-transmission"
+  id="skipKaeloIntroduction"
+>
+  Skip Introduction →
+</button>
+
+  </div>
+</section>
+
+<!-- ========================================
+     SCENE 3 — MISSION BRIEFING
+     ======================================== -->
+
+<section
+  id="missionScreen"
+  class="welcome-screen"
+  aria-labelledby="missionTitle"
+  hidden
+>
+  <div class="welcome-panel">
+
+    <div class="mission-console">
+
+      <div class="mission-header">
+        <span class="mission-division">
+          INTERSTELLAR ECOLOGICAL RESEARCH DIVISION
+        </span>
+        <span class="mission-signal" aria-hidden="true">◉</span>
+      </div>
+
+      <h1 id="missionTitle">MISSION BRIEFING</h1>
+
+      <p class="mission-subtitle">
+        LATHONERTH · PLANETARY BIODIVERSITY SURVEY
+      </p>
+
+      <p class="mission-introduction">
+        Your assignment: investigate newly discovered
+        plant specimens and establish a reliable
+        classification system.
+      </p>
+
+      <div class="mission-objectives">
+
+        <div class="mission-objective">
+          <span class="mission-number">01</span>
+          <div>
+            <h2>EXAMINE SPECIMENS</h2>
+            <p>
+              Identify the distinguishing characteristics
+              of alien plants.
+            </p>
+          </div>
+        </div>
+
+        <div class="mission-objective">
+          <span class="mission-number">02</span>
+          <div>
+            <h2>CONSTRUCT A DICHOTOMOUS KEY</h2>
+            <p>
+              Develop a series of questions to identify
+              each species.
+            </p>
+          </div>
+        </div>
+
+        <div class="mission-objective">
+          <span class="mission-number">03</span>
+          <div>
+            <h2>ASSIGN SCIENTIFIC NAMES</h2>
+            <p>
+              Give each newly classified species
+              a scientific name.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <button
+        type="button"
+        id="launchWorkstation"
+        class="welcome-start"
+      >
+        BEGIN EXPEDITION →
+      </button>
+
+      <button type="button" class="intro-skip">
+        SKIP INTRODUCTION →
+      </button>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ========================================
+     SELECT INVESTIGATION — A0 OR A1
+     ======================================== -->
+
+<section
+  id="investigationSelectScreen"
+  class="welcome-screen"
+  aria-labelledby="investigationSelectTitle"
+  hidden
+>
+  <div class="welcome-panel">
+
+    <div class="mission-console">
+
+      <div class="mission-header">
+        <span class="mission-division">
+          INTERSTELLAR ECOLOGICAL RESEARCH DIVISION
+        </span>
+        <span class="mission-signal" aria-hidden="true">◉</span>
+      </div>
+
+      <h1 id="investigationSelectTitle">
+        SELECT YOUR INVESTIGATION
+      </h1>
+
+      <p class="mission-subtitle">
+        LATHONERTH · XENOBOTANY RESEARCH DIVISION
+      </p>
+
+      <p class="mission-introduction">
+        Dr. Xyla has prepared two biodiversity surveys.
+        Choose the scope of your classification investigation.
+      </p>
+
+
+<div class="researcher-entry">
+  <label for="researcherNameInput">
+    RESEARCHER IDENTIFICATION
+  </label>
+
+  <input
+    type="text"
+    id="researcherNameInput"
+    placeholder="Enter your researcher name"
+    maxlength="60"
+    autocomplete="name"
+  />
+</div>
+
+
+      <div class="investigation-options">
+
+        <div class="investigation-option">
+          <div class="investigation-option-header">
+            <span>EXPEDITION A0</span>
+            <span>06 SPECIMENS</span>
+          </div>
+
+          <h2>FOCUSED BIODIVERSITY SURVEY</h2>
+
+          <p>
+            Examine alien plants, construct a dichotomous
+            key, and assign scientific names to the
+            newly discovered species.
+          </p>
+
+          <button
+            type="button"
+            id="selectA0"
+            class="welcome-start"
+          >
+            SELECT A0 →
+          </button>
+        </div>
+
+        <div class="investigation-option">
+          <div class="investigation-option-header">
+            <span>EXPEDITION A1</span>
+            <span>10 SPECIMENS</span>
+          </div>
+
+          <h2>EXTENDED BIODIVERSITY SURVEY</h2>
+
+          <p>
+            Examine ten alien plants and develop a more
+            extensive dichotomous key to identify and
+            name every species.
+          </p>
+
+          <button
+            type="button"
+            id="selectA1"
+            class="welcome-start"
+          >
+            SELECT A1 →
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<header class="top"><div class="brand"><div class="planet">◉</div><div><strong>PLANET LATHONERTH</strong><small>EXPEDITION DAY 1  · TASK 1: DESIGN A KEY</small></div></div><nav><button class="tab active" data-tab="classify">CLASSIFICATION</button><button class="tab" data-tab="gallery">SPECIMEN GALLERY</button><button class="tab" data-tab="notebook">SCIENTIFIC NAMING</button></nav><button id="researchNotebookBtn" class="research-notebook-btn" type="button">
+  📓 RESEARCH NOTEBOOK
+</button></header>
+<div class="shell"><aside class="sidebar"><h2>DICHOTOMOUS KEY</h2><p>Choose a question, sort specimens into Yes and No, and check your reasoning.</p>
+<div class="progress"><small>PLANTS IDENTIFIED</small><b id="count">0 / 6</b></div>
+<h3>KEY BRANCHES</h3><div id="branchList"></div>
+<!-- SPACESHIP OBSERVATION WINDOW -->
+<div class="observation-window" aria-label="View of planet Lathonerth">
+  <div class="observation-glass">
+    <div class="alien-sky"></div>
+    <div class="alien-moon"></div>
+    <div class="alien-mountains far"></div>
+    <div class="alien-mountains near"></div>
+    <div class="alien-ground"></div>
+  </div>
+  <div class="observation-label">
+    EXTERIOR VIEW · LATHONERTH
+  </div>
+</div>
+<div class="animal-mission-panel">
+  <div class="animal-mission-label">NEXT EXPEDITION ASSIGNMENT</div>
+
+  <button
+    type="button"
+    id="beginAnimalInvestigation"
+    disabled
+  >
+    🔒 ANIMAL INVESTIGATION — LOCKED
+  </button>
+
+  <p class="animal-mission-hint">
+    Complete your botanical dichotomous key to unlock.
+  </p>
+</div>
+
+<div class="sidebottom">
+  <button class="ghost" id="reset">↺ Reset investigation</button>
+</div>
+
+</aside>
+
+<main id="main"></main>
+</div>
+<div id="modal" class="modal hidden" role="dialog" aria-modal="true"><div class="modalbox"><button class="close" id="closeModal" aria-label="Close">×</button><div id="modalContent"></div></div></div>
+<!-- Dr. Kaelo's Xenozoology Research Workstation -->
+<section id="animalWorkstation" hidden>
+<!-- Xenozoology Workstation Navigation Header -->
+<header class="top animal-top-header">
+
+  <div class="brand">
+    <div class="planet">◉</div>
+    <div>
+      <strong>PLANET LATHONERTH</strong>
+      <small>EXPEDITION DAY 1 · TASK 2: ANIMAL IDENTIFICATION</small>
+    </div>
+  </div>
+<button class="research-notebook-btn" type="button">
+  📓 RESEARCH NOTEBOOK
+</button>
+</header>
+<!-- REQUIRED ANIMAL IDENTIFICATION PROGRESS -->
+<div id="animalResearchProgress" class="info">
+
+  <h3>Xenozoology Research Progress</h3>
+
+  <p>
+    Mupals identified:
+    <strong id="mupalProgress">0 / 2</strong>
+  </p>
+
+  <p>
+    Hooplers identified:
+    <strong id="hooplerProgress">0 / 2</strong>
+  </p>
+
+  <p>
+    Identify at least two species from each group.
+    Additional identifications may help you in future investigations.
+  </p>
+
+</div>
+
+<!-- Xenozoology Workstation Main Layout -->
+<div class="animal-workstation-layout">
+<div class="animal-workstation-title">
+  <h2>Xenozoology Research Station</h2>
+</div>
+
+  <!-- Specimen Gallery -->
+  <section class="animal-gallery-panel">
+    <h2>Living Specimen Gallery</h2>
+    <p>
+      Select a specimen to examine in the observation chamber.
+    </p>
+<div class="specimen-gallery-tabs">
+  <button
+    type="button"
+    class="specimen-gallery-tab active"
+    data-gallery="mupal"
+  >
+    MUPALS (10)
+  </button>
+
+  <button
+    type="button"
+    class="specimen-gallery-tab"
+    data-gallery="hoopler"
+  >
+    HOOPLERS (10)
+  </button>
+</div>
+    <div id="animalSpecimenGallery">
+
+  <!-- Living Specimen H-01 -->
+  <div class="gallery-specimen" data-specimen="H-01">
+
+    <div class="specimen-tank gallery-tank">
+      <img
+        src="assets/empty_tank_back.png"
+        class="tank-background"
+        alt=""
+      >
+
+      <img
+        src="assets/hoopler_siana.png"
+        class="tank-creature"
+        alt="Unidentified living Hoopler specimen"
+      >
+
+      <img
+        src="assets/empty_tank_front.png"
+        class="tank-foreground"
+        alt=""
+      >
+    </div>
+
+    <div class="specimen-label">
+      <span>SPECIMEN H-01</span>
+      <span class="specimen-status">UNIDENTIFIED</span>
+    </div>
+
+  </div>
+
+<div class="gallery-specimen" data-specimen="M-01">
+  <div class="specimen-tank gallery-tank">
+
+    <img
+      src="assets/empty_tank_back.png"
+      class="tank-background"
+      alt=""
+    >
+
+    <img
+      src="assets/mupal_zape.png"
+      class="tank-creature"
+      alt="Unidentified Mupal specimen"
+    >
+
+    <img
+      src="assets/empty_tank_front.png"
+      class="tank-foreground"
+      alt=""
+    >
+
+  </div>
+
+  <div class="specimen-label">
+    <span>SPECIMEN M-01</span>
+    <span class="specimen-status">UNIDENTIFIED</span>
+  </div>
+</div>
+<!-- REMAINING MUPAL SPECIMENS -->
+
+<div class="gallery-specimen" data-specimen="M-02">
+  <div class="specimen-tank gallery-tank">
+    <img src="assets/empty_tank_back.png" class="tank-background" alt="">
+    <img src="assets/mupal_ploby.png" class="tank-creature" alt="Unidentified Mupal specimen">
+    <img src="assets/empty_tank_front.png" class="tank-foreground" alt="">
+  </div>
+  <div class="specimen-label">
+    <span>SPECIMEN M-02</span>
+    <span class="specimen-status">UNIDENTIFIED</span>
+  </div>
+</div>
+
+<div class="gallery-specimen" data-specimen="M-03">
+  <div class="specimen-tank gallery-tank">
+    <img src="assets/empty_tank_back.png" class="tank-background" alt="">
+    <img src="assets/mupal_snin.png" class="tank-creature" alt="Unidentified Mupal specimen">
+    <img src="assets/empty_tank_front.png" class="tank-foreground" alt="">
+  </div>
+  <div class="specimen-label">
+    <span>SPECIMEN M-03</span>
+    <span class="specimen-status">UNIDENTIFIED</span>
+  </div>
+</div>
+
+<div class="gallery-specimen" data-specimen="M-04">
+  <div class="specimen-tank gallery-tank">
+    <img src="assets/empty_tank_back.png" class="tank-background" alt="">
+    <img src="assets/mupal_denkip.png" class="tank-creature" alt="Unidentified Mupal specimen">
+    <img src="assets/empty_tank_front.png" class="tank-foreground" alt="">
+  </div>
+  <div class="specimen-label">
+    <span>SPECIMEN M-04</span>
+    <span class="specimen-status">UNIDENTIFIED</span>
+  </div>
+</div>
+
+<div class="gallery-specimen" data-specimen="M-05">
+  <div class="specimen-tank gallery-tank">
+    <img src="assets/empty_tank_back.png" class="tank-background" alt="">
+    <img src="assets/mupal_molish.png" class="tank-creature" alt="Unidentified Mupal specimen">
+    <img src="assets/empty_tank_front.png" class="tank-foreground" alt="">
+  </div>
+  <div class="specimen-label">
+    <span>SPECIMEN M-05</span>
+    <span class="specimen-status">UNIDENTIFIED</span>
+  </div>
+</div>
+
+<div class="gallery-specimen" data-specimen="M-06">
+  <div class="specimen-tank gallery-tank">
+    <img src="assets/empty_tank_back.png" class="tank-background" alt="">
+    <img src="assets/mupal_xop.png" class="tank-creature" alt="Unidentified Mupal specimen">
+    <img src="assets/empty_tank_front.png" class="tank-foreground" alt="">
+  </div>
+  <div class="specimen-label">
+    <span>SPECIMEN M-06</span>
+    <span class="specimen-status">UNIDENTIFIED</span>
+  </div>
+</div>
+
+<div class="gallery-specimen" data-specimen="M-07">
+  <div class="specimen-tank gallery-tank">
+    <img src="assets/empty_tank_back.png" class="tank-background" alt="">
+    <img src="assets/mupal_byz.png" class="tank-creature" alt="Unidentified Mupal specimen">
+    <img src="assets/empty_tank_front.png" class="tank-foreground" alt="">
+  </div>
+  <div class="specimen-label">
+    <span>SPECIMEN M-07</span>
+    <span class="specimen-status">UNIDENTIFIED</span>
+  </div>
+</div>
+
+<div class="gallery-specimen" data-specimen="M-08">
+  <div class="specimen-tank gallery-tank">
+    <img src="assets/empty_tank_back.png" class="tank-background" alt="">
+    <img src="assets/mupal_dupy.png" class="tank-creature" alt="Unidentified Mupal specimen">
+    <img src="assets/empty_tank_front.png" class="tank-foreground" alt="">
+  </div>
+  <div class="specimen-label">
+    <span>SPECIMEN M-08</span>
+    <span class="specimen-status">UNIDENTIFIED</span>
+  </div>
+</div>
+
+<div class="gallery-specimen" data-specimen="M-09">
+  <div class="specimen-tank gallery-tank">
+    <img src="assets/empty_tank_back.png" class="tank-background" alt="">
+    <img src="assets/mupal_tabilly.png" class="tank-creature" alt="Unidentified Mupal specimen">
+    <img src="assets/empty_tank_front.png" class="tank-foreground" alt="">
+  </div>
+  <div class="specimen-label">
+    <span>SPECIMEN M-09</span>
+    <span class="specimen-status">UNIDENTIFIED</span>
+  </div>
+</div>
+
+<div class="gallery-specimen" data-specimen="M-10">
+  <div class="specimen-tank gallery-tank">
+    <img src="assets/empty_tank_back.png" class="tank-background" alt="">
+    <img src="assets/mupal_fush.png" class="tank-creature" alt="Unidentified Mupal specimen">
+    <img src="assets/empty_tank_front.png" class="tank-foreground" alt="">
+  </div>
+  <div class="specimen-label">
+    <span>SPECIMEN M-10</span>
+    <span class="specimen-status">UNIDENTIFIED</span>
+  </div>
+</div>
+<!-- REMAINING HOOPLER SPECIMENS -->
+
+<div class="gallery-specimen" data-specimen="H-02">
+  <div class="specimen-tank gallery-tank">
+    <img src="assets/empty_tank_back.png" class="tank-background" alt="">
+    <img src="assets/hoopler_espes.png" class="tank-creature" alt="Unidentified Hoopler specimen">
+    <img src="assets/empty_tank_front.png" class="tank-foreground" alt="">
+  </div>
+  <div class="specimen-label">
+    <span>SPECIMEN H-02</span>
+    <span class="specimen-status">UNIDENTIFIED</span>
+  </div>
+</div>
+
+<div class="gallery-specimen" data-specimen="H-03">
+  <div class="specimen-tank gallery-tank">
+    <img src="assets/empty_tank_back.png" class="tank-background" alt="">
+    <img src="assets/hoopler_agrip.png" class="tank-creature" alt="Unidentified Hoopler specimen">
+    <img src="assets/empty_tank_front.png" class="tank-foreground" alt="">
+  </div>
+  <div class="specimen-label">
+    <span>SPECIMEN H-03</span>
+    <span class="specimen-status">UNIDENTIFIED</span>
+  </div>
+</div>
+
+<div class="gallery-specimen" data-specimen="H-04">
+  <div class="specimen-tank gallery-tank">
+    <img src="assets/empty_tank_back.png" class="tank-background" alt="">
+    <img src="assets/hoopler_floin.png" class="tank-creature" alt="Unidentified Hoopler specimen">
+    <img src="assets/empty_tank_front.png" class="tank-foreground" alt="">
+  </div>
+  <div class="specimen-label">
+    <span>SPECIMEN H-04</span>
+    <span class="specimen-status">UNIDENTIFIED</span>
+  </div>
+</div>
+
+<div class="gallery-specimen" data-specimen="H-05">
+  <div class="specimen-tank gallery-tank">
+    <img src="assets/empty_tank_back.png" class="tank-background" alt="">
+    <img src="assets/hoopler_zulka.png" class="tank-creature" alt="Unidentified Hoopler specimen">
+    <img src="assets/empty_tank_front.png" class="tank-foreground" alt="">
+  </div>
+  <div class="specimen-label">
+    <span>SPECIMEN H-05</span>
+    <span class="specimen-status">UNIDENTIFIED</span>
+  </div>
+</div>
+
+<div class="gallery-specimen" data-specimen="H-06">
+  <div class="specimen-tank gallery-tank">
+    <img src="assets/empty_tank_back.png" class="tank-background" alt="">
+    <img src="assets/hoopler_jarb.png" class="tank-creature" alt="Unidentified Hoopler specimen">
+    <img src="assets/empty_tank_front.png" class="tank-foreground" alt="">
+  </div>
+  <div class="specimen-label">
+    <span>SPECIMEN H-06</span>
+    <span class="specimen-status">UNIDENTIFIED</span>
+  </div>
+</div>
+
+<div class="gallery-specimen" data-specimen="H-07">
+  <div class="specimen-tank gallery-tank">
+    <img src="assets/empty_tank_back.png" class="tank-background" alt="">
+    <img src="assets/hoopler_drebb.png" class="tank-creature" alt="Unidentified Hoopler specimen">
+    <img src="assets/empty_tank_front.png" class="tank-foreground" alt="">
+  </div>
+  <div class="specimen-label">
+    <span>SPECIMEN H-07</span>
+    <span class="specimen-status">UNIDENTIFIED</span>
+  </div>
+</div>
+
+<div class="gallery-specimen" data-specimen="H-08">
+  <div class="specimen-tank gallery-tank">
+    <img src="assets/empty_tank_back.png" class="tank-background" alt="">
+    <img src="assets/hoopler_higg.png" class="tank-creature" alt="Unidentified Hoopler specimen">
+    <img src="assets/empty_tank_front.png" class="tank-foreground" alt="">
+  </div>
+  <div class="specimen-label">
+    <span>SPECIMEN H-08</span>
+    <span class="specimen-status">UNIDENTIFIED</span>
+  </div>
+</div>
+
+<div class="gallery-specimen" data-specimen="H-09">
+  <div class="specimen-tank gallery-tank">
+    <img src="assets/empty_tank_back.png" class="tank-background" alt="">
+    <img src="assets/hoopler_bexil.png" class="tank-creature" alt="Unidentified Hoopler specimen">
+    <img src="assets/empty_tank_front.png" class="tank-foreground" alt="">
+  </div>
+  <div class="specimen-label">
+    <span>SPECIMEN H-09</span>
+    <span class="specimen-status">UNIDENTIFIED</span>
+  </div>
+</div>
+
+<div class="gallery-specimen" data-specimen="H-10">
+  <div class="specimen-tank gallery-tank">
+    <img src="assets/empty_tank_back.png" class="tank-background" alt="">
+    <img src="assets/hoopler_verfi.png" class="tank-creature" alt="Unidentified Hoopler specimen">
+    <img src="assets/empty_tank_front.png" class="tank-foreground" alt="">
+  </div>
+  <div class="specimen-label">
+    <span>SPECIMEN H-10</span>
+    <span class="specimen-status">UNIDENTIFIED</span>
+  </div>
+</div>
+</div>
+  </section>
+
+  <!-- Observation Chamber -->
+  <section class="animal-observation-panel">
+    <h2>Specimen Observation Chamber</h2>
+    <p>
+      Examine the organism's anatomical features carefully.
+    </p>
+  <!-- Living Specimen Tank Prototype -->
+  <div id="specimenTankPrototype">
+  <div class="specimen-tank">
+    <img
+      src="assets/observation_tank_back.png"
+      class="tank-background"
+      alt=""
+    >
+
+    <img
+  class="tank-creature"
+  alt="Selected specimen"
+  hidden
+>
+
+    <img
+      src="assets/observation_tank_front.png"
+      class="tank-foreground"
+      alt=""
+    >
+   </div>
+</div>
+
+<!-- Species Identification Submission -->
+<div id="animalIdentificationForm" class="animal-identification-form">
+
+  <label for="animalSpeciesInput">
+    Proposed Species Identification
+  </label>
+
+  <input
+    type="text"
+    id="animalSpeciesInput"
+    placeholder="Enter genus and species"
+    autocomplete="off"
+    spellcheck="false"
+  >
+
+  <button type="button" id="submitAnimalIdentification">
+    Submit Identification
+  </button>
+
+  <p id="animalIdentificationFeedback" aria-live="polite"></p>
+
+</div>
+
+<!-- Xenozoology Identification Console -->
+<div id="animalIdentificationConsole" class="animal-identification-console">
+
+  <h3>Dr. Kaelo's Dichotomous Key</h3>
+
+  <p>
+    Select a living specimen to begin identification.
+    Begin at statement 1. Examine your specimen and determine
+    which of the two statements describes its characteristics.
+    Follow the numbered directions until you reach a species name.
+  </p>
+
+  <div id="animalKeyInterface">
+
+  <div id="animalKeyCouplets" class="animal-key-couplets">
+
+  <div class="animal-key-couplet">
+    <strong>1.</strong>
+    <div>
+      <p>a. Creature has short, squat legs → Go to 2</p>
+      <p>b. Creature has long legs → Go to 11</p>
+    </div>
+  </div>
+
+  <div class="animal-key-couplet">
+    <strong>2.</strong>
+    <div>
+      <p>a. Creature has one eye → Go to 3</p>
+      <p>b. Creature has two eyes → Go to 6</p>
+    </div>
+  </div>
+
+  <div class="animal-key-couplet">
+    <strong>3.</strong>
+    <div>
+      <p>a. Creature has eyelashes → <em>Mupal snin</em></p>
+      <p>b. Creature does not have eyelashes → Go to 4</p>
+    </div>
+  </div>
+
+  <div class="animal-key-couplet">
+    <strong>4.</strong>
+    <div>
+      <p>a. Creature's beak is wider than the diameter of its eye → <em>Mupal zape</em></p>
+      <p>b. Creature's beak is not wider than the diameter of its eye → Go to 5</p>
+    </div>
+  </div>
+
+  <div class="animal-key-couplet">
+    <strong>5.</strong>
+    <div>
+      <p>a. Creature has a triangular beak with a broad base → <em>Mupal denkip</em></p>
+      <p>b. Creature has a very narrow triangular beak  → <em>Mupal ploby</em></p>
+    </div>
+</div>
+
+  <div class="animal-key-couplet">
+    <strong>6.</strong>
+    <div>
+      <p>a. Creature has prominent, branching veins visible in ears  → Go to 7</p>
+      <p>b. Creature does not have prominent, branching veins visible in ears  → Go to 8</p>
+    </div>
+  </div>
+
+  <div class="animal-key-couplet">
+    <strong>7.</strong>
+    <div>
+      <p>a. Creature has no sphere on its tail → <em>Mupal molish</em></p>
+      <p>b. Creature has a sphere on its tail → <em>Mupal xop</em></p>
+    </div>
+  </div>
+
+  <div class="animal-key-couplet">
+    <strong>8.</strong>
+    <div>
+      <p>a. Creature is blue → <em>Mupal fush</em></p>
+      <p>b. Creature is brown → Go to 9</p>
+    </div>
+  </div>
+
+  <div class="animal-key-couplet">
+    <strong>9.</strong>
+    <div>
+      <p>a. Tail has no additional appendages → <em>Mupal tabilly</em></p>
+      <p>b. Tail has additional appendages → Go to 10</p>
+    </div>
+  </div>
+
+  <div class="animal-key-couplet">
+    <strong>10.</strong>
+    <div>
+      <p>a. Creature has small, hairy projections along the edges of its ears → <em>Mupal byz</em></p>
+      <p>b. Creature has smooth ear edges without hairy projections → <em>Mupal dupy</em></p>
+    </div>
+  </div>
+  <div class="animal-key-couplet">
+    <strong>11.</strong>
+    <div>
+      <p>a. Creature has two legs → Go to 12</p>
+      <p>b. Creature has one leg → Go to 17</p>
+    </div>
+  </div>
+
+  <div class="animal-key-couplet">
+    <strong>12.</strong>
+    <div>
+      <p>a. Creature's blue gill appendages point up → Go to 13</p>
+      <p>b. Creature's blue gill appendages point down → Go to 15</p>
+    </div>
+  </div>
+
+  <div class="animal-key-couplet">
+    <strong>13.</strong>
+    <div>
+      <p>a. Creature has one singular blue gill appendage → <em>Hoopler siana</em></p>
+      <p>b. Creature has two blue gill appendages → Go to 14</p>
+    </div>
+  </div>
+
+  <div class="animal-key-couplet">
+    <strong>14.</strong>
+    <div>
+      <p>a. Creature's gill appendages connect → <em>Hoopler espes</em></p>
+      <p>b. Creature's gill appendages do not connect → <em>Hoopler agrip</em></p>
+    </div>
+  </div>
+
+  <div class="animal-key-couplet">
+    <strong>15.</strong>
+    <div>
+      <p>a. Creature's gill appendages are not symmetrical → <em>Hoopler floin</em></p>
+      <p>b. Creature's gill appendages are symmetrical → Go to 16</p>
+    </div>
+  </div>
+
+  <div class="animal-key-couplet">
+    <strong>16.</strong>
+    <div>
+      <p>a. Creature's mouth extends beyond the outer edges of its eyes → <em>Hoopler zulka</em></p>
+      <p>b. Creature's mouth does not extend beyond the outer edges of its eyes → <em>Hoopler jarb</em></p>
+    </div>
+  </div>
+
+  <div class="animal-key-couplet">
+    <strong>17.</strong>
+    <div>
+      <p>a. Creature does not have gill appendages → Go to 18</p>
+      <p>b. Creature has gill appendages → Go to 19</p>
+    </div>
+  </div>
+
+  <div class="animal-key-couplet">
+    <strong>18.</strong>
+    <div>
+      <p>a. Creature has eyes → <em>Hoopler drebb</em></p>
+      <p>b. Creature does not have eyes → <em>Hoopler higg</em></p>
+    </div>
+  </div>
+
+  <div class="animal-key-couplet">
+    <strong>19.</strong>
+    <div>
+      <p>a. Creature has two gill appendages → <em>Hoopler bexil</em></p>
+      <p>b. Creature has six gill appendages → <em>Hoopler verfi</em></p>
+      </div> <!-- End of couplet 19 -->
+
+</div> <!-- End of animalKeyCouplets -->
+
+</div> <!-- End of animalKeyInterface -->
+
+</div> <!-- End of animalIdentificationConsole -->
+
+</section>
+</div>
+
+</section>
+
+<!-- DAY 1 RESEARCH COMPLETION -->
+<div id="day1CompletionMessage" hidden>
+<img
+  src="assets/day1-completion-transmission.png"
+  alt="Dr. Xyla and Dr. Kaelo congratulating the researcher"
+  class="day1-completion-image"
+>
+  <h3>DAY 1 RESEARCH COMPLETE</h3>
+
+<h2>
+  Congratulations, <span id="day1CompletionStudentName">researcher</span>!
+</h2>
+
+  <p>
+    You have completed all required tasks for Day 1 of your expedition!
+  </p>
+
+  <p>
+    If you have extra time, return to the Xenozoology Research Station and continue identifying Mupals and Hooplers. Additional identifications will assist you in future investigations.
+  </p>
+<button
+  type="button"
+  id="day1ReturnToResearch"
+  class="primary"
+>
+  RETURN TO RESEARCH →
+</button>
+</div>
+
+<!-- EXPEDITION RESEARCH NOTEBOOK -->
+
+<div id="researchNotebookOverlay" class="research-notebook-overlay" hidden>
+
+  <div class="research-notebook">
+
+    <header class="research-notebook-header">
+      <div>
+        <small>LIFE UNKNOWN · EXPEDITION DAY 1</small>
+        <h2>Research Notebook</h2>
+        <p>Planet Lathonerth</p>
+      </div>
+
+      <button id="closeResearchNotebook" type="button">
+        ✕ CLOSE
+      </button>
+    </header>
+
+    <div class="research-notebook-content">
+
+  <h3>Expedition Investigations</h3>
+  <p>Select an investigation to continue your research.</p>
+
+  <div class="notebook-investigation-list">
+
+    <button
+      type="button"
+      id="notebookBotany"
+      class="notebook-investigation"
+    >
+      <span class="notebook-investigation-icon">🌿</span>
+      <span class="notebook-investigation-details">
+        <strong>Task 1: Botanical Classification</strong>
+        <small>Construct a dichotomous key and name alien plants.</small>
+      </span>
+      <span class="notebook-investigation-arrow">→</span>
+    </button>
+
+    <button
+      type="button"
+      id="notebookZoology"
+      class="notebook-investigation"
+      disabled
+    >
+      <span class="notebook-investigation-icon">🔬</span>
+      <span class="notebook-investigation-details">
+        <strong>Task 2: Xenozoology</strong>
+        <small>Identify Mupals and Hooplers using a dichotomous key.</small>
+      </span>
+      <span class="notebook-investigation-arrow">🔒</span>
+        </button>
+
+    <!-- FIELD GUIDE NAVIGATION -->
+    <button
+      type="button"
+      id="notebookFieldGuide"
+      class="notebook-investigation"
+    >
+      <span class="notebook-investigation-icon">📖</span>
+
+      <span class="notebook-investigation-details">
+        <strong>Expedition Field Guide</strong>
+        <small>Explore your documented discoveries from Lathonerth.</small>
+      </span>
+
+      <span class="notebook-investigation-arrow">→</span>
+    </button>
+
+  </div>
+
+  <!-- EXPEDITION FIELD GUIDE -->
+<section id="expeditionFieldGuide" class="expedition-field-guide" hidden>
+
+  <button
+    type="button"
+    id="backToNotebook"
+    class="notebook-back-button"
+  >
+    ← Back to Research Notebook
+  </button>
+
+  <h3>Expedition Field Guide</h3>
+
+  <p>
+    Review the organisms you have identified during your
+    investigation of Lathonerth.
+  </p>
+<!-- BOTANICAL FIELD GUIDE RECORDS -->
+<div id="plantFieldGuide">
+  <h4>Botany: Alien Flora</h4>
+
+  <div
+    id="plantFieldGuideEntries"
+    class="animal-field-guide-entries">
+  </div>
+</div>
+  <div id="animalFieldGuide">
+
+    <h4>Xenozoology: Mupals &amp; Hooplers</h4>
+
+    <div id="animalFieldGuideEntries" class="animal-field-guide-entries">
+      <!-- Confirmed species records will appear here. -->
+    </div>
+
+  </div>
+
+</section>
+
+</div>
+
+  </div>
+
+</div>
+<script src="app.js"></script>
+</body></html>
+
